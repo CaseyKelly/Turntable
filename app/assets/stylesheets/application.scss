@@ -1,0 +1,19 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+h2 {
+  margin-top: 10px;
+  color: white;
+}
+
+.navbar {
+  font-family: 'Poiret One', cursive;
+  background-color: #13262F;
+}
+
+span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
