@@ -3,6 +3,14 @@
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
+/* Coolors Exported Palette - coolors.co/616163-44ffd2-87f6ff-daf5ff-ffbfa0 */
+
+$color1: #616163; //rgba(97, 97, 99, 100)
+$color2: #44ffd2; //rgba(68, 255, 210, 100)
+$color3: #87f6ff; //rgba(135, 246, 255, 100)
+$color4: #daf5ff; //rgba(218, 245, 255, 100)
+$color5: #ffbfa0; //rgba(255, 191, 160, 100)
+
 h2 {
   margin-top: 10px;
   color: white;
@@ -10,7 +18,7 @@ h2 {
 
 .navbar {
   font-family: 'Poiret One', cursive;
-  background-color: #3B407C;
+  background-color: $color1;
 }
 
 span {
