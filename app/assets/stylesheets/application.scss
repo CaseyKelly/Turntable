@@ -16,12 +16,27 @@ h2 {
   color: white;
 }
 
-.navbar {
+h3 {
   font-family: 'Poiret One', cursive;
+  font-weight: 700;
   background-color: $color1;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 span {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.navbar {
+  border-radius: 0px;
+  border: 0px;
+  font-family: 'Poiret One', cursive;
+  background-color: $color1;
+}
+
+.col-md-2 {
+  text-align: center;
 }
