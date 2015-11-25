@@ -26,6 +26,13 @@ h3 {
   padding: 5px;
 }
 
+h3:hover {
+  font-family: 'Poiret One', cursive;
+  font-weight: 700;
+  background-color: #eeeeee;
+  color: $color1;
+}
+
 span {
   margin-left: 10px;
   margin-right: 10px;
